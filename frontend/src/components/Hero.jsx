@@ -15,8 +15,8 @@ const Hero = () => {
             <div className="h-[454px] md:mt-[76px] md:mx-[41px] md:flex md:justify-between">
                 <div className="h-[263px] pt-[70px] md:pt-[95.5px] mb-[76px]">
                     <h1 className="text-center md:text-start md:font-[600] md:text-[52px] md:leading-[78px] text-[#010914] text-[20px] leading-[30px] font-[600]">Learn <span className="font-[700]">web</span> development...</h1>
-                    <p className="font-[500] text-[16px] leading-[24px] text-center pt-[24px] block md:hidden">Gain the professional knowledge you<br /> need for front-end web development<br /> with us at <span className="text-[#001933] font-[600]">async</span></p>
-                    <p className="hidden md:block font-[500] text-[20px] leading-[164%] text-[#000000] pt-[6px] md:pt-0">Gain the professional knowledge you need for front-end<br /> web development with us at <span className="text-[#001933] font-[600]">async</span></p>
+                    <p className="font-[500] text-[16px] leading-[24px] text-center pt-[24px] block md:hidden">Gain the professional knowledge you<br /> need for front-end web development<br /> with us at <span className="text-[#001933] font-[600]"><i>async</i></span></p>
+                    <p className="hidden md:block font-[500] text-[20px] leading-[164%] text-[#000000] pt-[6px] md:pt-0">Gain the professional knowledge you need for front-end<br /> web development with us at <span className="text-[#001933] font-[600]"><i>async</i></span></p>
                     {/* button */}
                     <div className="pt-[78px] md:pt-[52px]">
                         {heroSignupButton}
