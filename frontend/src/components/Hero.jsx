@@ -10,7 +10,7 @@ const Hero = () => {
     );
   return (
     <React.Fragment>
-        <div className="w-screen h-auto bg-[#DDF6FF]">
+        <div className="w-screen h-screen md:h-[700px] bg-[#DDF6FF]">
             <HomeNavbar />
             <div className="h-[454px] md:mt-[76px] md:mx-[41px] md:flex md:justify-between">
                 <div className="h-[263px] pt-[70px] md:pt-\[95\.5px\] mb-[76px] md:pl-[20px]">
@@ -115,7 +115,6 @@ const Hero = () => {
                             alt="python" />
                     </div>
                 </div>
-                
             </div>
         </div>
     </React.Fragment>

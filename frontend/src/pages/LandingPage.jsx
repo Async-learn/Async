@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../components/About";
 import Hero from "../components/Hero";
 
 export const MobilelogoContext = React.createContext();
@@ -15,6 +16,7 @@ function LandingPage() {
                     <Hero />
                 </MobilelogoContext.Provider>
             </DesktoplogoContext.Provider>
+            <About />
         </div>
     </React.Fragment>
   );
