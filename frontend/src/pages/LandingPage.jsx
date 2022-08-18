@@ -10,20 +10,20 @@ export const DesktoplogoContext = React.createContext();
 function LandingPage() {
     const desktoplogo = "/desktoplogo.png";
     const mobilelogo = "/mobilelogo.png";
-  return (
-    <React.Fragment>
-        <div>
-            <DesktoplogoContext.Provider value={desktoplogo}>
-                <MobilelogoContext.Provider value={mobilelogo}>
-                    <Hero />
-                </MobilelogoContext.Provider>
-            </DesktoplogoContext.Provider>
-            <About />
-            <Roadmap />
-            <Comment />
-        </div>
-    </React.Fragment>
-  );
+    return (
+        <React.Fragment>
+            <div>
+                <DesktoplogoContext.Provider value={desktoplogo}>
+                    <MobilelogoContext.Provider value={mobilelogo}>
+                        <Hero />
+                    </MobilelogoContext.Provider>
+                </DesktoplogoContext.Provider>
+                <About />
+                <Roadmap />
+                <Comment />
+            </div>
+        </React.Fragment>
+    );
 }
 
 export default LandingPage;
