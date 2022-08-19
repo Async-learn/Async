@@ -15,7 +15,7 @@ const About = () => {
             <img className="block md:hidden" src="/thingymobile.png" alt="" />
         </div>
         <div className="md:h-[700px] bg-[#ffffff] pb-[50px] md:pb-0 flex justify-center items-center md:block">
-            <div className="md:px-[40px] lg:px-[150px] md:py-[34px] md:flex md:justify-between">
+            <div className=" md:px-[155px] md:py-[34px] md:flex md:justify-between">
                 <div className="pt-[40px] md:pt-0">
                     <div
                         data-aos="fade-up"
@@ -43,7 +43,7 @@ const About = () => {
                         initial={{ y: -50 }}
                         animate={{ y: 50 }}
                         transition={{ delay: 1.5, duration: 5, yoyo: Infinity }}
-                        className="hidden xl:block" src="/thingy.png" alt="Sally" />
+                        className="absolute left-[543px] top-[870px] hidden md:block" src="/thingy.png" alt="Sally" />
                 </div>
                 <div>
                     <div 

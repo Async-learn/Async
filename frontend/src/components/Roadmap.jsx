@@ -10,7 +10,7 @@ const Roadmap = () => {
             </div>
             {/* desktop */}
             <div>
-                <img className="hidden md:block absolute left-[px] top-[1500px]" src="/roadmapdesktop.png" alt="Roadmap" />
+                <img className="hidden md:block absolute left-[40px] top-[1500px]" src="/roadmapdesktop.png" alt="Roadmap" />
             </div>
         </div>
     </React.Fragment>

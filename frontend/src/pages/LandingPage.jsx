@@ -2,7 +2,7 @@ import React from "react";
 import About from "../components/About";
 import Hero from "../components/Hero";
 import Roadmap from "../components/Roadmap";
-import Comment from '../components/comment/Comment';
+import Comment from '../components/Comment';
 
 export const MobilelogoContext = React.createContext();
 export const DesktoplogoContext = React.createContext();

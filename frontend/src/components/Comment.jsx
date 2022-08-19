@@ -1,9 +1,9 @@
 
-import React from 'react';
+import { useState } from 'react';
 import CommentCard from './CommentCard';
 
 const Comment = () => {
-  const comments  = ([
+  const [comments, setComments] = useState([
     {
       comment: '“Async provides the ability to learn web development with ease and step by step guidance frombeginner to  milestone level."',
       name: 'John E, Dev Ops',
@@ -30,31 +30,21 @@ const Comment = () => {
     },
   ]);
   return (
-<<<<<<< HEAD:frontend/src/components/Comment.jsx
+
     
     <>
       <div className=' grid md:grid-cols-2  py-[1.25rem] md:px-[2.5rem] md:py-[4.25rem] px-[1.5rem] text-[#001933;] comment md:w-full w-full  md:h-[534px] xl:gap-x-[3rem] md:gap-x-[2rem] '>
 
-=======
-    <React.Fragment>
-      <div className=' grid md:grid-cols-2  p-[68px] comment md:w-full  md:h-[534px]  '>
->>>>>>> 35c01692075b9f38419c4d4a78f7aab38e77b716:frontend/src/components/comment/Comment.jsx
+  
+
         {
           comments.map((comment, key) => {
-            return (
-              <CommentCard 
-                key={ key }
-                comment={ comment.comment }  
-                name= { comment.name } 
-                occupation= { comment.occupation } 
-                url={ comment.url }  
-              />
-            )
+            return <CommentCard comment={ comment.comment}  name= {comment.name} occupation= {comment.occupation} url={comment.url} key={key}  />
           })
         }
       
      </div>
-    </React.Fragment>
+    </>
   )
 }
 
