@@ -1,4 +1,4 @@
-# Backend - Async API Srever
+# Backend - Async API Server
 
 ## Setting up the Backend
 
@@ -11,7 +11,7 @@ ON Winows - `call venv/Scripts/activate`
 
 2. **Run the server** - From within the `./backend` directory first ensure you are working using the virtual environment.
 
-First set tthe flask app to the api.py file. Run the command:
+First set the flask app to the api.py file. Run the command:
 ON Mac - `FLASK_APP=api.py`
 ON Windows - `set FLASK_APP=api.py`
 
