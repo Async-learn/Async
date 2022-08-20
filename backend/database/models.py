@@ -3,7 +3,7 @@ from sqlalchemy import Column, String, Integer
 from flask_sqlalchemy import SQLAlchemy
 import json
 
-database_path = "postgres://hxhyrvbc:qmFxrfp3MksMlK2bWjr744SZAnXjJ4i2@suleiman.db.elephantsql.com/hxhyrvbc"
+database_path = os.getenv('ASYNC_DB')
 
 db = SQLAlchemy()
 
