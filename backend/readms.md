@@ -75,10 +75,10 @@ Returns:
     "total_user": 1,
     "user": [
         {
-            "email address": "georgeolulufemi@gmail.com",
-            "first name": "George",
-            "id": 6,
-            "last name": "Olufemi"
+            "email address": "kelanitaiwo34@gmail.com",
+            "first name": "Taiwo",
+            "id": 1,
+            "last name": "Kelani"
         }
     ]
 }
