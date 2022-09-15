@@ -10,12 +10,12 @@ function CommentCard({ comment, name, occupation, url }) {
         </div>
 
         <div className=' md:grid md:gap-[5rem]  grid-rows-2 '>
-          <div className='md:text-[14px]  border-b border-[#001933] py-[.63rem] mb-[.5rem]  lg:pb-4 md:mb-10 h-[6.63rem] w-full flex pb-[.63rem]  md:pb-[1.83rem]   2xl:pb-[1.63rem]  overflow-hidden '>
+          <div className='md:text-[0.75rem]  mb-[.5rem]  lg:pb-4 md:mb-10  w-full '>
             <p className=' text-[0.7rem] md:text-[1.2rem] 2xl:text-[1.4rem] 2xl:leading-[2.8rem] leading-[1.5rem] '>{comment}</p>
           </div>
 
           <div>
-            <h1 className=' md:text-[1.25rem] 2xl:text-[1.8rem] text-[0.88rem] font-[500] '>{name}</h1>
+            <h1 className=' md:text-[1.25rem] 2xl:text-[1.8rem] text-[0.88rem] font-[500]  border-t border-[#001933]  '>{name}</h1>
             <h2 className=' text-[10px] md:text-[.88rem] font-semibold 2xl:text-[1.2rem] text-[#576A7B]'>{occupation}</h2>
           </div>
 

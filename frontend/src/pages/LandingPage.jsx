@@ -8,14 +8,15 @@ export const MobilelogoContext = React.createContext();
 export const DesktoplogoContext = React.createContext();
 
 function LandingPage() {
+  
     const desktoplogo = "/desktoplogo.png";
     const mobilelogo = "/mobilelogo.png";
     return (
         <React.Fragment>
-            <div>
+            <div className=" max-w-6xl mx-auto"  >
                 <DesktoplogoContext.Provider value={desktoplogo}>
                     <MobilelogoContext.Provider value={mobilelogo}>
-                        <Hero />
+                        <Hero  />
                     </MobilelogoContext.Provider>
                 </DesktoplogoContext.Provider>
                 <About />
