@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/footer/Footer';
 import HomeNavbar from '../navbar/HomeNavbar';
 
 export default function About() {
@@ -7,9 +8,13 @@ export default function About() {
             <HomeNavbar />
             <div className="w-full  ">
                 <div className=" md:w-full w-[90%] md:h-[15rem] lg:h-[20rem] h-[10rem] relative mx-auto ">
-                    <img src="/aboutH.png" alt="" className='cover w-full h-full ' />
+                    <img
+                     
+                        src="/aboutH.png" alt="" className='cover w-full h-full ' />
                     <div className="h-full w-full absolute top-0 left-0 bg-[#00000062]"></div>
-                    <img src="/hero text desktop.png" alt="" className='cover left-[50%] translate-x-[-50%] w-[50%]  absolute md:top-[4rem] lg:top-[7rem] top-[3rem] ' />
+                    <img
+                        
+                        src="/hero text desktop.png" alt="" className='cover left-[50%] translate-x-[-50%] w-[50%]  absolute md:top-[4rem] lg:top-[7rem] top-[3rem] hover:scale-[103%] ease-in-out transition duration-500 ' />
                 </div>
             </div>
             <div className="grid md:grid-cols-2 md:pt-[4rem] pt-[1rem]  ">
@@ -26,22 +31,22 @@ export default function About() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-[90%] gap-[1rem] mx-auto ">
                     <div className='text-center p-[.5rem] font-semibold'>
-                        <img src="/Web Accessibility.png" alt="" className='w-[2.5rem] mx-auto ' />
+                        <img src="/Web Accessibility.png" alt="" className='w-[2.5rem] mx-auto hover:scale-[110%] ease-in-out transition duration-500 ' />
                         <h1 className="font-semibold text-[1.2rem] md:text-[1.5rem] my-[.5rem] ">Inclusivity</h1>
                         <p>Our Program is opened to every category of people. We work with  diverse groups of people and collaborate with each other with respect for their voices, beliefs and so on.</p>
                     </div>
                     <div className='text-center p-[.5rem] font-semibold'>
-                        <img src="/learning.png" alt="" className='w-[2.5rem] mx-auto ' />
+                        <img src="/learning.png" alt="" className='w-[2.5rem] mx-auto hover:scale-[110%] ease-in-out transition duration-500 ' />
                         <h1 className="font-semibold  text-[1.2rem] md:text-[1.5rem] my-[.5rem] ">Learning</h1>
                         <p>Learning is our main theme. “Learning is the source of human progress”- Coursera. We’ve compiled all you need to be job-ready in web development.</p>
                     </div>
                     <div className='text-center p-[.5rem] font-semibold'>
-                        <img src="/Teamwork.png" alt="" className='w-[2.5rem] mx-auto ' />
+                        <img src="/Teamwork.png" alt="" className='w-[2.5rem] mx-auto hover:scale-[110%] ease-in-out transition duration-500 ' />
                         <h1 className="font-semibold text-[1.2rem] md:text-[1.5rem] my-[.5rem] ">Our Community</h1>
                         <p>We cherish our community. We love and nurture environments where everyone is encouraged to learn and give back.</p>
                     </div>
                     <div className='text-center p-[.5rem] font-semibold'>
-                        <img src="/Increase.png" alt="" className='w-[2.5rem] mx-auto ' />
+                        <img src="/Increase.png" alt="" className='w-[2.5rem] mx-auto hover:scale-[110%] ease-in-out transition duration-500 ' />
                         <h1 className="font-semibold text-[1.2rem] md:text-[1.5rem] my-[.5rem] ">Growth</h1>
                         <p>We aim toward progress, exploration, seeking challenges, learning, and the increasing actualization of one's potentials and values.</p>
                     </div>
@@ -67,47 +72,11 @@ export default function About() {
                 </p>
                 <div className="md:w-[40%] w-[60%]   mx-auto mt-[6rem] ">
 
-                    <button className=' w-full rounded-full py-[1rem] mb-[1rem] bg-[#001933] text-white ' >Get started for free</button>
+                    <button className=' w-full rounded-full py-[1rem] mb-[1rem] bg-[#001933] text-white hover:scale-[103%] ease-in-out transition duration-500 ' >Get started for free</button>
                 </div>
             </div>
 
-            <div className="px-[5%] py-[4rem] bg-[#052531]  md text-white ">
-                <div className="md:block flex">
-
-
-                    <div className="md:flex justify-between w-[80%] mx-auto ">
-                        <div>
-                            <h1 className=' font-bold md:mb-[1rem] mb-[.3rem] '>Address</h1>
-                            <p className='text-[.75rem] font-light'>Akwa Ibom</p>
-                        </div>
-                        <div>
-                            <h1 className=' font-bold md:mb-[1rem] mb-[.3rem] md:mt-0 mt-[1rem]'>Sponsors</h1>
-                            <p className='text-[.75rem] font-light'>Samjoedan  Sabino LLC</p>
-                        </div>
-                        <div>
-                            <h1 className=' font-bold md:mb-[1rem] mb-[.3rem] md:mt-0  mt-[1rem]'>Contact</h1>
-                            <p className='text-[.75rem] font-light'>+2340000000000</p>
-                            <p className='text-[.75rem] font-light'>+async@gmail.com</p>
-                        </div>
-                    </div>
-                    <div className="md:flex ml-[10%]  md:my-[3rem] ">
-                        <div className=' md:mr-[5%]' >
-                            <h1>
-                                Join our Community
-                            </h1>
-                            <img src="/discord.png" alt="" className=' md:ml-[1rem] w-[70%]' />
-                        </div>
-                        <h1>Help Center</h1>
-                    </div>
-                </div>
-                <div className=" mt-[2rem]">
-
-                    <p className="text-center">All Rights Reserved ©</p>
-
-                    <img src="/footerLogo.png" alt="" className="md:w-[7%]  mt-[.5rem]  mx-auto" />
-                </div>
-            </div>
-
+            <Footer/>
         </div>
     );
 }
