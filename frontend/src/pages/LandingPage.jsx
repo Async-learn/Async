@@ -14,7 +14,7 @@ function LandingPage() {
     const mobilelogo = "/mobilelogo.png";
     return (
         <React.Fragment>
-            <div className=" max-w-6xl mx-auto"  >
+            <div>
                 <DesktoplogoContext.Provider value={desktoplogo}>
                     <MobilelogoContext.Provider value={mobilelogo}>
                         <Hero  />

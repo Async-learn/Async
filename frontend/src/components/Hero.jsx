@@ -11,7 +11,7 @@ const Hero = () => {
     );
   return (
     <React.Fragment>
-        <div className="w-screen max-w-6xl mx-auto h-screen md:h-[700px] 2xl:h-[61vh] bg-[#DDF6FF]">
+        <div className="w-screen h-screen md:h-[700px] 2xl:h-[61vh] bg-[#DDF6FF]">
             <HomeNavbar />
             <div className="h-[454px] md:pt-[140px] md:mx-[41px] md:flex md:justify-between">
                 <div className="h-[263px] pt-[70px] md:pt-\[95\.5px\] mb-[76px] md:pl-[20px]">

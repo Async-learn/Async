@@ -7,7 +7,7 @@ const HomeNavbar = () => {
     const [menu, setMenu] = useState(false);
     return (
         <React.Fragment>
-            <nav className="fixed w-screen h-[80px] pt-[18px] top-0 left-0 right-0 bg-[#DDF6FF] z-50 max-w-6xl mx-auto shadow-lg ">
+            <nav className="fixed w-screen h-[80px] pt-[18px] top-0 left-0 right-0 bg-[#DDF6FF] z-50 shadow-lg ">
                 <div className="md:h-[48px] md:left-[40px] top-[30px] md:top-[24px] flex justify-between items-center">
                     <div className="md:pl-[60px]">
                         {/* mobile */}

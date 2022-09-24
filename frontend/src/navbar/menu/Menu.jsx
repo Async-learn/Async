@@ -25,10 +25,10 @@ function Menu({ menu, setMenu }) {
                     <div
 
                         onClick={() => setMenu(!menu)} className=
-                        'w-[100vw] fixed bg-[#0c0c0c60] h-full top-0 left-0 cursor-pointer '>
-                        < motion.div
+                        'w-[100vw] fixed bg-[#0c0c0c60] h-full top-0 left-0  cursor-pointer '>
+                        <motion.div
                             initial={{
-                                x: '150%'
+                                x: '50%'
                             }}
                             animate={{
                                 x: '0',
@@ -40,7 +40,7 @@ function Menu({ menu, setMenu }) {
                             }}
                         
 
-                            className='md:w-[40%] w-full h-full fixed bg-[#FFFFFF] top-0 xl:right-[7.3%] right-0   border border-[#DDF6FF] rounded
+                            className='md:w-[40%] w-full h-full fixed bg-[#FFFFFF] top-0 xl:right-0 right-0   border border-[#DDF6FF] rounded
                          ' >
                             <div className=" py-[1rem] border-b border-b-[#DDF6FF] relative ">
                                 {/* mobile */}
